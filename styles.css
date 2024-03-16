@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+nav{
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x:none;
+    background-color: white;
+}
+#navLogo
+{
+    font-size: 2rem;
+    color: #F6F1F1;
+}
+.navbar
+{
+    width:100vw;
+    background-color: #146C94;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#navlist{
+    width:100%;
+    padding: 15px;
+    /* padding-left: 0px;
+    padding-right: 0px; */
+    overflow-x: none;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: #F6F1F1;
+}
+.navItems{
+    display: flex;
+    gap:40px;
+}
+footer{
+    width: 100%;
+     background-color: #146C94;
+}
+.footerbox p{
+    color: #F6F1F1;
+    font-size: 1.4rem;
+}
+.footerbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rights{
+    color: #F6F1F1;
+    font-size: 1.4rem;
+}
+.contentBox{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    background-color: #AFD3E2;
+}
+#introduction{
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+}
+img{
+    width: 500px;
+    margin-top: 20px;
+    height: 500px;
+    margin-right: 0px;
+    border: 0px;
+    position: relative;
+}
+
+.heading
+{
+    font-size:2.5rem;
+    color: #19A7CE;
+    /* display: flex; */
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    /* gap: 50px; */
+    margin-left: 50px;
+}
+.AboutCourse{
+    /* width: 100%; */
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-left: 40px; 
+   margin-bottom: 40px ;
+   background-color: #19A7CE;
+}
+.CourseOutline{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 40px; 
+    margin-bottom: 40px;
+    background-color: #19A7CE;
+}
+.aboutcontent{
+
+    margin: 30px 0px 30px 30px;
+    color: #F6F1F1;
+    display: flex;
+    font-size: 1rem;
+}
+
+
